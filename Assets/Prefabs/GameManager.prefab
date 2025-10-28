@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5502295569447081441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5420372983629921351}
+  - component: {fileID: 3690447337589176214}
+  - component: {fileID: 6289891319497229548}
+  - component: {fileID: 557708932866221195}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5420372983629921351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502295569447081441}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.8438687, y: 0.4975875, z: 542.4824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3690447337589176214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502295569447081441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61efe6e103f9e3e4bb98f17151c6b0eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  card: {fileID: 6601944049013928480, guid: b5152da02d35844409caad54814a178b, type: 3}
+  scoreText: {fileID: 0}
+  score: 0
+  foilOdds: 0.025
+  cardDatabase: {fileID: 11400000, guid: ad0c5e6af6803eb41a0235b5770564f1, type: 2}
+--- !u!114 &6289891319497229548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502295569447081441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f11911affdfc1d4587d6387ed2abc7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardTransform: {fileID: 0}
+  layers:
+  - layerTransform: {fileID: 0}
+    parallaxMultiplier: 0.2
+  - layerTransform: {fileID: 0}
+    parallaxMultiplier: 0.1
+  - layerTransform: {fileID: 0}
+    parallaxMultiplier: 0.05
+  - layerTransform: {fileID: 0}
+    parallaxMultiplier: 0.025
+  - layerTransform: {fileID: 0}
+    parallaxMultiplier: 0.1
+--- !u!114 &557708932866221195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5502295569447081441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608fc13eddf2f04488faf0fe034f66ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 1.5
+  arrowL: {fileID: 0}
+  arrowR: {fileID: 0}
+  fadeDuration: 20

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a1ecb3a6388ddd49bdc26795b86a25c, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: 
+  cards:
+  - rarity: 0
+    condition: 1
+    foil: 0
+    collectorNumber: 1
+    scoreValue: 2
+    cardName: Nosferatu
+    cardSprite: {fileID: 1566490610689109831, guid: 00e17380bfcc75c45a69de790ba3e1cd, type: 3}
+  - rarity: 0
+    condition: 1
+    foil: 0
+    collectorNumber: 2
+    scoreValue: 2
+    cardName: Paesaggio
+    cardSprite: {fileID: 6015833300617551113, guid: 498d4a1fb093c4b4ead9159892f2a68b, type: 3}
+  - rarity: 0
+    condition: 1
+    foil: 0
+    collectorNumber: 3
+    scoreValue: 2
+    cardName: Cane
+    cardSprite: {fileID: 5903216454595434930, guid: bf1b3ffb723c2184693f299af034bfac, type: 3}
+  - rarity: 0
+    condition: 0
+    foil: 0
+    collectorNumber: 4
+    scoreValue: 2
+    cardName: Foca
+    cardSprite: {fileID: -5458052775471911955, guid: 630903779b7120f4aab356eb3ff8cb55, type: 3}
+  - rarity: 1
+    condition: 0
+    foil: 0
+    collectorNumber: 5
+    scoreValue: 4
+    cardName: Teamwork
+    cardSprite: {fileID: -8135216149308544133, guid: 1d9c91fde19747547962bedc4ffa8554, type: 3}
+  - rarity: 1
+    condition: 0
+    foil: 0
+    collectorNumber: 6
+    scoreValue: 4
+    cardName: Fiori
+    cardSprite: {fileID: 7038212853053320352, guid: a109a813148574b4fb5fff350975e418, type: 3}
+  - rarity: 1
+    condition: 0
+    foil: 0
+    collectorNumber: 7
+    scoreValue: 4
+    cardName: Pietra
+    cardSprite: {fileID: -1728492699858205346, guid: 5b03fc2b784c67e408215dace417b01c, type: 3}
+  - rarity: 2
+    condition: 0
+    foil: 0
+    collectorNumber: 8
+    scoreValue: 10
+    cardName: Uomo Elegante
+    cardSprite: {fileID: 1268714886236704033, guid: 767a95f2707d819469f5c24f060870a9, type: 3}
+  - rarity: 2
+    condition: 0
+    foil: 0
+    collectorNumber: 9
+    scoreValue: 5
+    cardName: Cactus
+    cardSprite: {fileID: -1055672937981460584, guid: 3ae877d8048120341b21092c28a35c5a, type: 3}
+  - rarity: 3
+    condition: 0
+    foil: 0
+    collectorNumber: 10
+    scoreValue: 10
+    cardName: Gatto
+    cardSprite: {fileID: -2033623181674633118, guid: b0393ec1fcc5a8d45a3673963816b09a, type: 3}
